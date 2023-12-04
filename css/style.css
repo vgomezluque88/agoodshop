@@ -1,0 +1,47 @@
+header {
+  border-bottom: solid 1px grey;
+  display: flex;
+  justify-content: space-between; }
+  header ul {
+    display: none; }
+    @media only screen and (min-width: 1024px) {
+      header ul {
+        display: inline-block;
+        list-style: none;
+        margin: auto 0px; } }
+    header ul li {
+      display: inline;
+      list-style: none; }
+      header ul li a {
+        color: black;
+        text-decoration: none;
+        margin: auto; }
+
+footer {
+  padding: 10px;
+  text-align: center; }
+
+body {
+  margin: 0px; }
+
+main {
+  padding: 10px; }
+
+.section2 img {
+  width: 100%;
+  height: auto; }
+.section2 article {
+  border: solid 1px grey;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 20px; }
+  .section2 article .article-oferta {
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px; }
+  .section2 article .article-new {
+    background-color: blue;
+    padding: 5px;
+    border-radius: 5px; }
+
+/*# sourceMappingURL=style.css.map */

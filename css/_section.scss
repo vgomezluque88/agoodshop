@@ -1,0 +1,25 @@
+.section{
+
+    &2{
+        img{
+            width: 100%;
+            height: auto;
+        }
+        article{
+            border: solid 1px grey;
+            border-radius: 5px;
+            padding: 5px;
+            margin-bottom: 20px;
+            .article-oferta{
+                background-color: red;
+                padding: 5px;
+                border-radius: 5px;
+            }
+            .article-new{
+                background-color: blue;
+                padding: 5px;
+                border-radius: 5px;
+            }
+        }
+    }
+}
